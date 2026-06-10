@@ -1,0 +1,40 @@
+-- Consulta 1
+SELECT
+    clientes.nome,
+    unidades.nome_unidade,
+    reservas.data_checkin,
+    reservas.data_checkout
+FROM reservas
+JOIN clientes
+    ON reservas.id_cliente = clientes.id_cliente
+JOIN unidades
+    ON reservas.id_unidade = unidades.id_unidade;
+    
+select * FROM reservas;
+
+-- Consulta 2
+SELECT
+    reservas.id_reserva,
+    unidades.nome_unidade AS Hotel,
+    tipos_quarto.descricao AS Tipo_Quarto,
+    reservas.qtd_diarias AS Diarias,
+    tipos_quarto.valor_diaria_base AS Valor_Diaria,
+    (reservas.qtd_diarias * tipos_quarto.valor_diaria_base) AS Valor_Total
+FROM reservas
+JOIN unidades
+    ON reservas.id_unidade = unidades.id_unidade
+JOIN tipos_quarto
+    ON reservas.id_tipo_quarto = tipos_quarto.id_tipo_quarto;
+    
+-- Consulta 3
+SELECT
+    clientes.nome,
+    unidades.nome_unidade AS Hotel,
+    reservas.status_reserva
+FROM reservas
+JOIN clientes
+    ON reservas.id_cliente = clientes.id_cliente
+JOIN unidades
+    ON reservas.id_unidade = unidades.id_unidade
+WHERE reservas.status_reserva = 'Concluída';
+    
