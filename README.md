@@ -15,7 +15,7 @@ A diretoria identificou queda de receita em algumas unidades e solicitou uma con
 - Estruturar um banco de dados relacional  
 - Entregar um relatório gerencial no Power BI  
 
-Este projeto simula um ambiente real de consultoria — sem roteiro de código e sem indicação prévia dos problemas nas bases. O time foi responsável por identificar inconsistências, tratar os dados, analisar os resultados e entregar as soluções.
+Este projeto simula um ambiente real de consultoria. O time foi responsável por identificar inconsistências, tratar os dados, analisar os resultados e entregar as soluções.
 
 ---
 
