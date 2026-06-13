@@ -1,1 +1,1 @@
-arquivos de dados
+Arquivos de dados utilizados no projeto.
