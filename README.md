@@ -1,13 +1,15 @@
 # 🏨 Nara Hotels — Data Analysis
 
 ## 📋 Sobre o Projeto
-Projeto de análise de dados de uma rede hoteleira com o objetivo de identificar padrões, inconsistências e gerar insights para apoio à tomada de decisão.
+
+Projeto end-to-end de análise de dados em uma rede hoteleira, com foco em geração de insights para apoio à tomada de decisão.
 
 Os dados utilizados são fictícios, criados para simular um ambiente real de negócio.
 
 ---
 
 ## 🧠 Tecnologias Utilizadas
+
 - Python (Pandas, NumPy, Matplotlib)
 - SQL / MySQL
 - Power BI (DAX)
@@ -16,6 +18,7 @@ Os dados utilizados são fictícios, criados para simular um ambiente real de ne
 ---
 
 ## 📚 Conhecimentos Aplicados
+
 - Limpeza e tratamento de dados  
 - Estatística descritiva  
 - Análise de outliers (IQR)  
@@ -26,8 +29,10 @@ Os dados utilizados são fictícios, criados para simular um ambiente real de ne
 ---
 
 ## 📊 Estrutura do Projeto
-- `data/` — dados utilizados no projeto  
-- `notebooks/` — análise em Python  
+
+- `data_raw/` — dados brutos  
+- `data_processed/` — dados tratados  
+- `notebooks/` — análises em Python  
 - `sql/` — estrutura e consultas em banco de dados  
 - `powerbi/` — dashboard e indicadores  
 
@@ -56,10 +61,20 @@ Os dados utilizados são fictícios, criados para simular um ambiente real de ne
 
 ---
 
+## 📈 Resultados
+
+- Estruturação de dados confiáveis para análise  
+- Identificação de padrões operacionais relevantes  
+- Suporte à tomada de decisão baseada em dados  
+
+---
+
 ## 🎯 Aplicação em Customer Experience
+
 A análise permite entender o comportamento de clientes e apoiar decisões voltadas à melhoria da experiência, satisfação e retenção.
 
 ---
 
 ## ⚠️ Observação
+
 Projeto desenvolvido para fins de portfólio.
